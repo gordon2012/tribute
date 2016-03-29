@@ -1,0 +1,27 @@
+{
+  "name": "tribute",
+  "version": "1.0.0",
+  "description": "Tribute to Donald Trump",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:html && npm run build:styles",
+    "build:html": "cp src/index.html dist",
+    "build:styles": "node-sass --include-path src src/style.scss dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordon2012/tribute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gordon2012/tribute/issues"
+  },
+  "homepage": "https://github.com/gordon2012/tribute#readme",
+  "devDependencies": {
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.1"
+  }
+}
