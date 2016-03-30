@@ -1,3 +1,4 @@
+date
 cd dist
 git init
 
