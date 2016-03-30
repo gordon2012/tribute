@@ -8,7 +8,9 @@
     "build": "npm run build:mdir && npm run build:html && npm run build:styles",
     "build:mdir": "mkdirp dist",
     "build:html": "cp src/index.html ./dist",
-    "build:styles": "node-sass src/style.scss dist/style.css"
+    "build:styles": "node-sass src/style.scss dist/style.css",
+    "livereload": "live-reload --port 9091 dist/",
+    "devserver": "node server"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,9 @@
   },
   "homepage": "https://github.com/gordon2012/tribute#readme",
   "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "express": "^4.13.4",
+    "live-reload": "^1.1.0",
     "mkdirp": "^0.5.1",
     "node-sass": "^3.4.2",
     "nodemon": "^1.9.1"
