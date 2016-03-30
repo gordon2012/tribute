@@ -2,7 +2,7 @@ cd dist
 git init
 
 git config user.name "Travis CI"
-git config user.email "your@email.com"
+git config user.email "gordon2012@users.noreply.github.com"
 
 git add .
 git commit -m "Deploy to GitHub Pages"
