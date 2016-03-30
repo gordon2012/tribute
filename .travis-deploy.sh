@@ -1,4 +1,5 @@
-cd dist
+ls -l
+cd ./dist
 git init
 
 git config user.name "Travis CI"
