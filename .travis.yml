@@ -3,6 +3,5 @@ language: node_js
 node_js:
   - "4.1"
 script:
-  - npm run build
+  - npm run build:html
   - bash ./.travis-deploy.sh
-  
