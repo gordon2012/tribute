@@ -11,3 +11,4 @@ DONE:
 - add css to travis deploy
 - add image
 - add dev server with live reloading
+- add watcher and fix live reloading
