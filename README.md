@@ -12,3 +12,4 @@ DONE:
 - add image
 - add dev server with live reloading
 - add watcher and fix live reloading
+- add new quote and make image responsive

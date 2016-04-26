@@ -4,5 +4,14 @@ $blue: #0000ff;
 
 body {
 	margin: 0;
-	background-color: $red;
+	// background-color: $red;
+}
+
+.image-wrapper {
+	background: no-repeat url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Donald_Trump_%2825218642186%29.jpg/512px-Donald_Trump_%2825218642186%29.jpg) 50% / 100%;
+	img {
+		vertical-align: top;
+		width: 100%;
+		opacity: 0;
+	}
 }
