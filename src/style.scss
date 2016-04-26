@@ -1,10 +1,5 @@
-$badass: #bada55;
-$red: #ff4444;
-$blue: #0000ff;
-
 body {
 	margin: 0;
-	// background-color: $red;
 }
 
 .image-wrapper {
@@ -14,4 +9,10 @@ body {
 		width: 100%;
 		opacity: 0;
 	}
+}
+
+.quote-wrap {
+	border: 1px solid black;
+	margin: 8px;
+	padding: 8px;
 }
