@@ -2,6 +2,7 @@ body {
 	margin: 0;
 }
 
+
 .image-wrapper {
 	background: no-repeat url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Donald_Trump_%2825218642186%29.jpg/512px-Donald_Trump_%2825218642186%29.jpg) 50% / 100%;
 	img {
@@ -11,11 +12,13 @@ body {
 	}
 }
 
+
 .quote-wrap {
 	border: 1px solid black;
 	margin: 8px;
 	padding: 8px;
 }
+
 
 .vwrap {
   position: relative;
@@ -32,20 +35,28 @@ body {
   }
 }
 
+
 .jumbotron {
 	background-color: rgba(0,0,0,0);
 }
 
 
-
-.main {
-	// background-color: green;
-}
-
 @media all and (min-width: 780px) {
 	.main {
-		// background-color: red;
 		width: 780px;
 		margin: 0 auto;
+	}
+}
+
+
+.footer {
+	background-color: grey;
+	color: white;
+	div {
+		display: table;
+		margin: 0 auto;
+		span {
+			padding-right: 8px;
+		}
 	}
 }

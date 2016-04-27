@@ -16,3 +16,4 @@ DONE:
 - improve quote styles
 - add embedded videos
 - add responsive column and fix styles
+- add footer
