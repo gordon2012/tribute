@@ -1,0 +1,43 @@
+body {
+  margin: 0; }
+
+.image-wrapper {
+  background: no-repeat url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Donald_Trump_%2825218642186%29.jpg/512px-Donald_Trump_%2825218642186%29.jpg) 50%/100%; }
+  .image-wrapper img {
+    vertical-align: top;
+    width: 100%;
+    opacity: 0; }
+
+.quote-wrap {
+  border: 1px solid black;
+  margin: 8px;
+  padding: 8px; }
+
+.vwrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+  .vwrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.jumbotron {
+  background-color: transparent; }
+
+@media all and (min-width: 780px) {
+  .main {
+    width: 780px;
+    margin: 0 auto; } }
+
+.footer {
+  background-color: grey;
+  color: white; }
+  .footer div {
+    display: table;
+    margin: 0 auto; }
+    .footer div span {
+      padding-right: 8px; }
