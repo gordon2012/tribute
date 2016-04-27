@@ -15,3 +15,4 @@ DONE:
 - add new quote and make image responsive
 - improve quote styles
 - add embedded videos
+- add responsive column and fix styles
