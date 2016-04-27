@@ -14,3 +14,4 @@ DONE:
 - add watcher and fix live reloading
 - add new quote and make image responsive
 - improve quote styles
+- add embedded videos
